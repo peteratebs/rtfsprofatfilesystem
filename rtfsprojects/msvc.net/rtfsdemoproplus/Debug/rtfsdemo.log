@@ -1,0 +1,1363 @@
+﻿Build started 4/3/2015 11:46:33 AM.
+     1>Project "C:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\rtfsdemoproplus\rtfsdemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\rtfsdemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _MBCS /GF /Gm- /MTd /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt ..\..\..\rtfsdrivers\v10devwrap\apiinitv10.c ..\source\rtfscallbacks.c ..\source\rtfsconfig.c ..\source\runrtfsdemo.c ..\..\..\rtfscommon\source\apickdsk.c ..\..\..\rtfscommon\source\apideltr.c ..\..\..\rtfscommon\source\apidirent.c ..\..\..\rtfscommon\source\apidiskclose.c ..\..\..\rtfscommon\source\apidiskflush.c ..\..\..\rtfscommon\source\apidiskinford.c ..\..\..\rtfscommon\source\apienum.c ..\..\..\rtfscommon\source\apifilmv.c ..\..\..\rtfscommon\source\apifrmat.c ..\..\..\rtfscommon\source\apigetwd.c ..\..\..\rtfscommon\source\apigfrst.c ..\..\..\rtfscommon\source\apigread.c ..\..\..\rtfscommon\source\apiinfo.c ..\..\..\rtfscommon\source\apiinit.c ..\..\..\rtfscommon\source\apimkdir.c ..\..\..\rtfscommon\source\apinandregress.c ..\..\..\rtfscommon\source\apipartition.c ..\..\..\rtfscommon\source\apiregrs.c ..\..\..\rtfscommon\source\apisetattr.c ..\..\..\rtfscommon\source\apisetvol.c ..\..\..\rtfscommon\source\apisetwd.c ..\..\..\rtfscommon\source\apistat.c ..\..\..\rtfscommon\source\apiunlink.c ..\..\..\rtfscommon\source\csasciird.c ..\..\..\rtfscommon\source\csasciiwr.c ..\..\..\rtfscommon\source\cscommon.c ..\..\..\rtfscommon\source\csjisrd.c ..\..\..\rtfscommon\source\csjistab.c ..\..\..\rtfscommon\source\csjiswr.c ..\..\..\rtfscommon\source\csstrtab.c ..\..\..\rtfscommon\source\drdynamic.c ..\..\..\rtfscommon\source\rtdblockrd.c ..\..\..\rtfscommon\source\rtdblockwr.c ..\..\..\rtfscommon\source\rtdeviord.c ..\..\..\rtfscommon\source\rtdeviowr.c ..\..\..\rtfscommon\source\rtdrobjrd.c ..\..\..\rtfscommon\source\rtdrobjwr.c ..\..\..\rtfscommon\source\rteraseblock.c ..\..\..\rtfscommon\source\rtfatdrvrd.c ..\..\..\rtfscommon\source\rtfatdrvwr.c ..\..\..\rtfscommon\source\rtfblockrd.c ..\..\..\rtfscommon\source\rtfblockwr.c ..\..\..\rtfscommon\source\rtfilebuffer.c ..\..\..\rtfscommon\source\rtfragmtrd.c ..\..\..\rtfscommon\source\rtfsbasicrd.c ..\..\..\rtfscommon\source\rtfsbasicwr.c ..\..\..\rtfscommon\source\rtfsgluerd.c ..\..\..\rtfscommon\source\rtfsgluewr.c ..\..\..\rtfscommon\source\rtkernfn.c ..\..\..\rtfscommon\source\rtleakcheck.c ..\..\..\rtfscommon\source\rtlowl.c ..\..\..\rtfscommon\source\rtnvfatrd.c ..\..\..\rtfscommon\source\rtnvfatwr.c ..\..\..\rtfscommon\source\rttermin.c ..\..\..\rtfscommon\source\rtutbyte.c ..\..\..\rtfscommon\source\rtutil.c ..\..\..\rtfscommon\apps\appcmdfs.c ..\..\..\rtfscommon\apps\appcmdshformat.c ..\..\..\rtfscommon\apps\appcmdshrd.c ..\..\..\rtfscommon\apps\appcmdshwr.c ..\..\..\rtfscommon\apps\apputil.c ..\..\..\rtfstargets\template\portio.c ..\..\..\rtfstargets\windows.krn\portkern.c ..\..\..\rtfsdrivers\ata\drideata.c ..\..\..\rtfsdrivers\smartmedia\smartapi.c ..\..\..\rtfsdrivers\smartmedia\smartecc.c ..\..\..\rtfsdrivers\smartmedia\smarthw.c ..\..\..\rtfsdrivers\smartmedia\smartmed.c ..\..\..\rtfsdrivers\smartmedia\smtmedia.c ..\..\..\rtfsdrivers\floppy\drfloppy.c ..\..\..\rtfsdrivers\hostdisk\drhostdsk.c ..\..\..\rtfsdrivers\mmc\drmmccrd.c ..\..\..\rtfsdrivers\norflash\drflsftl.c ..\..\..\rtfsdrivers\norflash\drflsmtd.c ..\..\..\rtfsdrivers\pcmcia\drpcmcia.c ..\..\..\rtfsdrivers\pcmcia\drpcmctl.c ..\..\..\rtfsdrivers\pcmcia\drpcmram.c ..\..\..\rtfsdrivers\ramdisk\drramdsk.c ..\..\..\rtfsdrivers\romdisk\drromdsk.c ..\..\..\rtfsdrivers\hostdev\drwindev.c ..\..\..\rtfsdrivers\v10devwrap\apicnfig.c ..\..\..\rtfsdrivers\v10devwrap\apirun.c ..\..\..\rtfsdrivers\v10devwrap\v10glue.c ..\..\..\rtfspro\csunicodrd.c ..\..\..\rtfspro\csunicodwr.c ..\..\..\rtfspro\rtfat32rd.c ..\..\..\rtfspro\rtfat32wr.c ..\..\..\rtfspro\rtfragmtwr.c ..\..\..\rtfspro\rtfreemanager.c ..\..\..\rtfspro\rtvfatrd.c ..\..\..\rtfspro\rtvfatwr.c ..\..\..\rtfspackages\apps\efishellrd.c ..\..\..\rtfspackages\apps\efishellwr.c ..\..\..\rtfspackages\apps\prasytest.c ..\..\..\rtfspackages\apps\preftest.c ..\..\..\rtfspackages\apps\prlinexttest.c ..\..\..\rtfspackages\apps\protestsrd.c ..\..\..\rtfspackages\apps\protestswr.c ..\..\..\rtfspackages\rtfsproplus\apidiskinfowr.c ..\..\..\rtfspackages\rtfsproplus\apirawrd.c ..\..\..\rtfspackages\rtfsproplus\apirawwr.c ..\..\..\rtfspackages\rtfsproplus\prapiasyrd.c ..\..\..\rtfspackages\rtfsproplus\prapiasywr.c ..\..\..\rtfspackages\rtfsproplus\prapiefird.c ..\..\..\rtfspackages\rtfsproplus\prapiefiwr.c ..\..\..\rtfspackages\rtfsproplus\prapilinext.c ..\..\..\rtfspackages\rtfsproplus\prasyintrd.c ..\..\..\rtfspackages\rtfsproplus\prasyintwr.c ..\..\..\rtfspackages\rtfsproplus\prefi32rd.c ..\..\..\rtfspackages\rtfsproplus\prefi32wr.c ..\..\..\rtfspackages\rtfsproplus\preficomrd.c ..\..\..\rtfspackages\rtfsproplus\preficomwr.c ..\..\..\rtfspackages\rtfsproplus\prefinoderd.c ..\..\..\rtfspackages\rtfsproplus\prefinodewr.c ..\..\..\rtfspackages\rtfsproplus\prffossector.c ..\..\..\rtfspackages\rtfsproplus\prfragmtrd.c ..\..\..\rtfspackages\rtfsproplus\prfragmtwr.c ..\..\..\rtfspackages\rtfsproplus\prmath64.c ..\..\..\rtfspackages\rtfsproplus\proplusglue.c
+         apiinitv10.c
+         rtfscallbacks.c
+     1>c:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\source\rtfscallbacks.c(53): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\source\rtfscallbacks.c(212): warning C4189: 'line_number' : local variable is initialized but not referenced
+         rtfsconfig.c
+         runrtfsdemo.c
+         apickdsk.c
+         apideltr.c
+         apidirent.c
+         apidiskclose.c
+         apidiskflush.c
+         apidiskinford.c
+         apienum.c
+         apifilmv.c
+         apifrmat.c
+         apigetwd.c
+         apigfrst.c
+         apigread.c
+         apiinfo.c
+         apiinit.c
+         apimkdir.c
+         apinandregress.c
+         Generating Code...
+         Compiling...
+         apipartition.c
+         apiregrs.c
+         apisetattr.c
+         apisetvol.c
+         apisetwd.c
+         apistat.c
+         apiunlink.c
+         csasciird.c
+         csasciiwr.c
+         cscommon.c
+         csjisrd.c
+         csjistab.c
+         csjiswr.c
+         csstrtab.c
+         drdynamic.c
+         rtdblockrd.c
+         rtdblockwr.c
+         rtdeviord.c
+         rtdeviowr.c
+         rtdrobjrd.c
+         Generating Code...
+         Compiling...
+         rtdrobjwr.c
+         rteraseblock.c
+         rtfatdrvrd.c
+         rtfatdrvwr.c
+         rtfblockrd.c
+         rtfblockwr.c
+         rtfilebuffer.c
+         rtfragmtrd.c
+         rtfsbasicrd.c
+         rtfsbasicwr.c
+         rtfsgluerd.c
+         rtfsgluewr.c
+         rtkernfn.c
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\source\rtkernfn.c(322): warning C4100: 'linenumber' : unreferenced formal parameter
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\source\rtkernfn.c(322): warning C4100: 'filename' : unreferenced formal parameter
+         rtleakcheck.c
+         rtlowl.c
+         rtnvfatrd.c
+         rtnvfatwr.c
+         rttermin.c
+         rtutbyte.c
+         rtutil.c
+         Generating Code...
+         Compiling...
+         appcmdfs.c
+         appcmdshformat.c
+         appcmdshrd.c
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(1182): warning C4100: 'backwards' : unreferenced formal parameter
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2505): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2506): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2514): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2518): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2523): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2524): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2525): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2529): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2530): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2531): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2539): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2559): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2567): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2571): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2574): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2577): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2580): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2582): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2584): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2587): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2589): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2590): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2594): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2596): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2597): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfscommon\apps\appcmdshrd.c(2661): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         appcmdshwr.c
+         apputil.c
+         portio.c
+         portkern.c
+         drideata.c
+         smartapi.c
+         smartecc.c
+         smarthw.c
+         smartmed.c
+         smtmedia.c
+         drfloppy.c
+         drhostdsk.c
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(97): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(240) : see declaration of '_open'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(137): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(240) : see declaration of '_open'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(172): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(240) : see declaration of '_open'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(296): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(355): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(576): warning C4101: 'lpDisplayBuf' : unreferenced local variable
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(711): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1209): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(240) : see declaration of '_open'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1218): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1219): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1220): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1299): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1300): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1301): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1331): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1332): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1353): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1354): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1355): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1366): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1367): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1368): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1404): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1405): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1406): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1408): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdisk\drhostdsk.c(1409): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         drmmccrd.c
+         drflsftl.c
+         drflsmtd.c
+         drpcmcia.c
+         drpcmctl.c
+         Generating Code...
+         Compiling...
+         drpcmram.c
+         drramdsk.c
+         drromdsk.c
+         drwindev.c
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdev\drwindev.c(287): warning C4100: 'pdrive' : unreferenced formal parameter
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdev\drwindev.c(287): warning C4100: 'devhandle' : unreferenced formal parameter
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdev\drwindev.c(304): warning C4100: 'pmedia_parms' : unreferenced formal parameter
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdev\drwindev.c(519): warning C4127: conditional expression is constant
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdev\drwindev.c(730): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdev\drwindev.c(794): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\dev\rtfs6svnsndbox\rtfsdrivers\hostdev\drwindev.c(219): warning C4505: 'win_device_remove_event' : unreferenced local function has been removed
+         apicnfig.c
+         apirun.c
+         v10glue.c
+         csunicodrd.c
+         csunicodwr.c
+         rtfat32rd.c
+         rtfat32wr.c
+         rtfragmtwr.c
+         rtfreemanager.c
+         rtvfatrd.c
+         rtvfatwr.c
+         efishellrd.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(438): error C3861: 'pc_efilio_open': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(569): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(580): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(613): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(743): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(764): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(777): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(787): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(791): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(851): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellrd.c(930): error C3861: 'pc_efilio_fstat': identifier not found
+         efishellwr.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellwr.c(95): error C3861: 'pc_efilio_setalloc': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellwr.c(185): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellwr.c(247): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellwr.c(294): error C3861: 'pc_efilio_chsize': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\efishellwr.c(451): error C3861: 'pc_efilio_flush': identifier not found
+         prasytest.c
+         preftest.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(167): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(183): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(192): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(198): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(294): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(296): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(307): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(315): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(319): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(356): error C3861: 'pc_efilio_setalloc': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(365): error C3861: 'pc_efilio_setalloc': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(371): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(386): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(512): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(580): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(629): error C3861: 'pc_efilio_setalloc': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(642): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(708): error C3861: 'pc_efilio_setalloc': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(756): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(836): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(850): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(856): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(862): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(976): error C3861: 'pc_efilio_chsize': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(980): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(986): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(1038): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(1084): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(1117): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\preftest.c(1145): error C3861: 'pc_efilio_open': identifier not found
+         prlinexttest.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(145): error C3861: 'pc_bytes_to_clusters': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(164): error C3861: 'pc_clusters_to_bytes': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(168): error C3861: 'pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(235): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(249): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(276): error C3861: 'pc_efilio_extract': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(285): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(293): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(300): error C3861: 'pc_efilio_swap': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(306): error C3861: 'pc_efilio_remove': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(312): error C3861: 'pc_clusters_to_bytes': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(314): error C3861: 'pc_clusters_to_bytes': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(316): error C3861: 'pc_clusters_to_bytes': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(328): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(330): error C3861: 'pc_bytes_to_clusters': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(336): error C3861: 'pc_subtract_64': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(340): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(346): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(348): error C3861: 'pc_bytes_to_clusters': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(353): error C3861: 'pc_subtract_64': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(360): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(364): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(371): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(379): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(385): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(392): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(394): error C3861: 'pc_bytes_to_clusters': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(399): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(404): error C3861: 'pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(406): error C3861: 'pc_bytes_to_clusters': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(411): error C3861: 'pc_add_64': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(420): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(428): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(435): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(452): error C3861: 'pc_efilio_open': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(463): error C3861: 'pc_clusters_to_bytes': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(473): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(475): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(490): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(492): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(501): error C3861: 'pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(503): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\prlinexttest.c(510): error C3861: 'pc_efilio_close': identifier not found
+         Generating Code...
+         Compiling...
+         protestsrd.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestsrd.c(339): warning C4100: 'fsrestore_buffer_size_sectors' : unreferenced formal parameter
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestsrd.c(338): warning C4100: 'fsindex_buffer_size_sectors' : unreferenced formal parameter
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestsrd.c(337): warning C4100: 'fsjournal_n_blockmaps' : unreferenced formal parameter
+         protestswr.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestswr.c(117): error C3861: 'pc_efilio_open': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestswr.c(156): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestswr.c(158): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestswr.c(182): error C3861: 'pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestswr.c(211): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestswr.c(216): error C3861: 'pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\apps\protestswr.c(283): error C3861: 'pc_efilio_write': identifier not found
+         apidiskinfowr.c
+         apirawrd.c
+         apirawwr.c
+         prapiasyrd.c
+         prapiasywr.c
+         prapiefird.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(318): error C3861: '_pc_efilio32_open': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(401): error C3861: 'pc_efilio_start_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(409): error C3861: '_pc_efilio_flush_file_buffer': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(412): error C3861: '_pc_efilio_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(468): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(486): error C3861: '_pc_efilio32_close': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(580): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(585): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(612): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(628): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(628): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(629): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(629): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(629): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(632): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(632): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(632): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(632): error C2227: left of '->start_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(638): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(638): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(639): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(639): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(639): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(642): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(642): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(642): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(642): error C2227: left of '->end_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(647): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(647): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(647): error C3861: '_pc_efiliocom_reset_seek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(653): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(653): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(653): error C3861: '_pc_efinode_coalesce_fragments': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(663): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(663): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(663): error C3861: '_pc_efiliocom_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(728): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(729): error C3861: '_pc_efilio_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(738): error C3861: '_pc_efilio32_read': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(844): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(845): error C3861: '_pc_efilio_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(860): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(860): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(861): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(861): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(865): error C3861: '_pc_efilio32_common_fstat': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(866): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(866): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(866): error C3861: '_pc_efiliocom_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(887): error C3861: 'pc_efilio_get_file_extents': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(923): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefird.c(923): error C2228: left of '.allocation_policy' must have class/struct/union
+         prapiefiwr.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(67): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(68): error C3861: '_pc_efilio_flush': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(85): error C3861: '_pc_efilio32_flush': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(90): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(90): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(90): error C3861: 'pc_free_excess_clusters': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(108): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(111): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(114): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(133): error C3861: '_pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(147): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(147): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(147): error C3861: '_pc_efinode_chsize': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(151): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(159): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(162): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(162): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(162): error C3861: '_pc_efinode_chsize': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(163): error C3861: '_pc_efilio_reset_seek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(167): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(274): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(277): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(280): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(283): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(286): error C3861: '_pc_efilio_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(288): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(288): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(288): error C3861: '_pc_efinode_chsize': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(289): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(321): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(324): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(324): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(324): error C3861: '_pc_efiliocom_write': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(405): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(405): error C2228: left of '.allocation_hint' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(437): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(437): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(509): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(509): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(516): error C3861: '_pc_check_efile_open_mode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapiefiwr.c(521): error C3861: '_pc_efilio32_settime': identifier not found
+         prapilinext.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(110): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(113): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(115): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(143): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(146): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(165): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(186): error C3861: 'pc_fraglist_split': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(229): error C3861: 'pc_fraglist_split': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(253): error C3861: 'pc_fraglist_split': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(286): error C3861: 'pc_fraglist_split': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(415): error C3861: '_pc_efilio_reset_seek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(434): error C3861: '_pc_efilio_reset_seek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(439): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(443): error C3861: '_pc_efilio_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(458): error C3861: 'pc_clusters2bytes64': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(526): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(526): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(529): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(529): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(529): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(530): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(530): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(530): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(530): error C2227: left of '->pnext' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(532): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(532): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(532): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(541): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(541): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(541): error C2227: left of '->e' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(541): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(541): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(581): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(581): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(591): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(591): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(591): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(592): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(592): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(592): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(619): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(619): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(619): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(619): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(622): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(622): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(622): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(622): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(625): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(625): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(625): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(626): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(626): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(626): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(627): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(627): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(627): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prapilinext.c(654): error C3861: '_pc_efinode_set_file_size': identifier not found
+         prasyintrd.c
+         prasyintwr.c
+         prefi32rd.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(47): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(47): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(48): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(48): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(54): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(54): error C2228: left of '.allocation_hint' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(58): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(58): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(64): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(64): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(83): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(83): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(83): error C3861: 'pc_memory_finode_ex': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(84): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(84): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(111): error C3861: 'load_efinode_fragments_until': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(114): error C3861: 'load_efinode_fragment_list': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(118): error C3861: 'pc_efilio32_open_complete': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(120): error C3861: 'pc_efilio32_open_error': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(126): error C3861: 'pc_efilio32_open_error': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(136): error C3861: '_pc_efinode_truncate_finode': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(139): error C3861: 'pc_efilio32_open_error': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(143): error C3861: 'pc_efilio32_open_complete': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(145): error C3861: 'pc_efilio32_open_error': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(160): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(160): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(160): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(161): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(161): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(161): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(162): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(162): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(162): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(162): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(164): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(164): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(164): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(164): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(166): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(166): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(166): error C2227: left of '->alloced_size_clusters' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(167): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(167): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(167): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(168): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(168): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(168): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(251): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(251): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(251): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(252): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(252): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(252): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(254): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(254): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(254): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(255): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(255): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(255): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(258): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(258): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(258): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(260): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(260): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(260): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(260): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(260): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(261): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(261): error C2228: left of '.region_block_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(261): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(261): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(261): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(261): error C2227: left of '->start_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(265): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(265): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(266): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(266): error C2228: left of '.region_block_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(273): error C2039: 'extended_attribute_dstart' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(279): error C3861: '_pc_efiliocom_lseek': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(289): error C3861: 'pc_efinode_async_load_continue': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(300): error C3861: '_pc_efiliocom_sync_current_fragment': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(307): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(307): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(307): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(307): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(308): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(308): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(308): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(308): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(316): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(316): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(316): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(316): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(320): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(320): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(320): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(321): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(321): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(321): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(322): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(322): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32rd.c(322): fatal error C1003: error count exceeds 100; stopping compilation
+         prefi32wr.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(34): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(34): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(34): error C3861: '_pc_efinode_queue_cluster_links': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(44): error C2227: left of '->pnext' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(47): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(47): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(47): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(59): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(59): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(59): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(61): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(61): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(61): error C2227: left of '->clusters_to_delete' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(63): error C3861: 'pc_efinode_delete_cluster_chain': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(66): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(66): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(66): error C2227: left of '->clusters_to_delete' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(68): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(68): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(68): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(69): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(69): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(69): error C2227: left of '->last_deleted_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(70): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(70): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(70): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(78): error C3861: 'pc_efinode_link_or_delete_cluster_chain': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(80): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(80): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefi32wr.c(80): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+         preficomrd.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(32): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(32): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(33): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(33): error C2228: left of '.region_block_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(35): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(35): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(35): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(37): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(37): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(37): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(40): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(40): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(40): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(40): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(40): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(42): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(42): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(42): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(42): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(42): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(43): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(43): error C2228: left of '.region_block_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(43): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(43): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(43): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(43): error C2227: left of '->start_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(45): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(45): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(45): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(47): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(47): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(47): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(56): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(56): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(56): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(56): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(56): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(57): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(57): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(57): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(57): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(57): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(57): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(58): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(58): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(59): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(59): error C2228: left of '.region_block_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(59): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(59): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(59): error C2227: left of '->start_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(61): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(61): error C2228: left of '.region_block_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(63): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(63): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(63): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(64): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(64): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(64): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(66): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(66): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(66): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(67): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(67): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(67): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(90): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(90): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(90): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(91): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(91): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(91): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(92): error C2039: 'extended_attribute_dstart' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(99): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(99): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(99): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(100): error C2039: 'extended_attribute_dstart' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(110): error C2065: 'PSEEK_SET_RAW' : undeclared identifier
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(117): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(117): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(120): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(120): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(197): error C3861: 'load_efinode_fragments_until': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(207): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(207): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(207): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(207): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(215): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(215): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(215): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(215): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(221): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(221): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(221): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(221): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(221): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(221): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(226): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(226): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(226): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(231): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(231): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(232): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomrd.c(232): fatal error C1003: error count exceeds 100; stopping compilation
+         preficomwr.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(77): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(77): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(86): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(86): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(97): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(97): error C2228: left of '.allocation_hint' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(99): error C3861: '_pc_efiliocom_sync_current_fragment': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(121): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(121): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(121): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(143): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(143): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(143): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(145): error C3861: 'load_efinode_fragments_until': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(152): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(152): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(152): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(152): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(152): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(152): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(152): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(160): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(160): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(160): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(160): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(160): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(160): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(160): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(175): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(175): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(175): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(175): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(178): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(178): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(178): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(178): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(178): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(178): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(178): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(193): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(193): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(193): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(205): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(205): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(208): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(208): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(208): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(208): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(208): error C2228: left of '.min_alloc_bytes' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(215): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(215): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(222): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(222): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(225): error C3861: '_pc_efilio_last_cluster': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(252): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(252): error C2228: left of '.allocation_hint' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(265): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(265): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(265): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(265): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(265): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(265): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(265): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(271): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(271): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(271): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(271): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(271): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(271): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(271): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(280): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(280): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(330): error C3861: '_pc_efiliocom_io': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(337): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(337): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(337): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(339): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(339): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(349): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(349): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(349): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(351): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(351): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(411): error C3861: '_pc_efilio_flush': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(415): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(415): error C2228: left of '.allocation_hint' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(500): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(500): error C2228: left of '.allocation_hint' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(501): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(501): error C2228: left of '.allocation_hint' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(502): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(502): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(505): error C3861: '_pc_efilio_last_cluster': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(506): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(506): error C2228: left of '.allocation_policy' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(506): error C3861: 'pc_region_file_find_free_chain': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(537): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(537): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(537): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(539): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(539): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\preficomwr.c(539): fatal error C1003: error count exceeds 100; stopping compilation
+         prefinoderd.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(26): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(26): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(26): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(28): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(28): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(28): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(33): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(33): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(33): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(38): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(38): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(38): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(38): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(40): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(40): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(40): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(40): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(41): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(41): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(41): error C2227: left of '->alloced_size_clusters' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(42): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(42): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(42): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(43): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(43): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(43): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(54): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(54): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(54): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(57): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(57): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(57): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(69): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(69): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(69): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(76): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(76): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(76): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(84): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(84): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(84): error C2227: left of '->alloced_size_clusters' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C2227: left of '->alloced_size_clusters' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(87): error C3861: 'pc_alloced_bytes_from_clusters_64': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(90): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(90): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(90): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(90): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(90): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(90): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(90): error C2227: left of '->alloced_size_clusters' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(92): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(92): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(92): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(106): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(106): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(106): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(107): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(107): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(107): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(107): error C2227: left of '->pnext' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(109): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(109): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(109): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(110): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(110): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(110): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(112): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(112): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(112): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(113): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(113): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(113): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(120): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(120): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(120): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(121): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(121): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(121): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(122): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(122): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(122): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(123): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(123): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(123): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(133): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(133): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(133): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(134): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(134): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(134): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(136): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(136): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(136): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(137): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(137): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinoderd.c(137): fatal error C1003: error count exceeds 100; stopping compilation
+         prefinodewr.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(23): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(23): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(23): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(25): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(25): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(25): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(26): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(26): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(26): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(26): error C2227: left of '->end_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(27): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(27): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(27): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(30): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(30): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(30): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(30): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(30): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(30): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(30): error C3861: 'pc_fraglist_find_next_cluster': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(32): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(32): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(32): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(34): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(34): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(34): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(35): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(35): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(35): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(35): error C2227: left of '->start_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(85): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(85): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(85): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(87): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(87): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(87): error C2227: left of '->last_deleted_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(88): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(88): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(88): error C2227: left of '->clusters_to_delete' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(89): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(89): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(89): error C2227: left of '->ptofree_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(92): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(92): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(92): error C2227: left of '->clusters_to_delete' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(95): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(95): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(95): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(96): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(96): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(96): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(98): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(98): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(98): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(99): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(99): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(99): error C2227: left of '->plast_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(99): error C2227: left of '->end_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(100): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(100): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(100): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(103): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(103): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(103): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(103): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(103): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(103): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(103): error C3861: 'pc_fraglist_find_next_cluster': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(105): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(105): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(105): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(107): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(107): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(107): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(108): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(108): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(108): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(108): error C2227: left of '->start_location' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2227: left of '->last_processed_cluster' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(117): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(128): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(128): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(128): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(132): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(132): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(132): error C2227: left of '->clusters_to_process' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(139): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(139): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(139): error C2227: left of '->alloced_size_bytes' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(139): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(142): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(142): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prefinodewr.c(142): fatal error C1003: error count exceeds 100; stopping compilation
+         prffossector.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(70): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(70): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(72): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(72): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(72): error C3861: '_pc_efiliocom_sync_current_fragment': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(89): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(89): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(89): error C2227: left of '->fsizeu' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(89): error C2228: left of '.fsize64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(89): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(89): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(89): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(92): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(92): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(92): error C2227: left of '->fsizeu' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(92): error C2228: left of '.fsize' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(92): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(92): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(92): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(111): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(111): error C2228: left of '.ffinode' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(111): error C2227: left of '->e' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(111): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(111): error C2227: left of '->pfirst_fragment' must point to class/struct/union/generic type
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(116): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(116): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(116): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(116): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(116): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(116): error C2228: left of '.val64' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(117): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(117): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(120): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(120): error C2228: left of '.region_block_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(126): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(126): error C2228: left of '.file_pointer' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(126): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(126): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(126): error C2228: left of '.region_byte_base' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(126): error C2228: left of '.val32' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(127): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(127): error C2228: left of '.pcurrent_fragment' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(132): error C2039: 'plus' : is not a member of 'file_control'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(969) : see declaration of 'file_control'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\prffossector.c(132): error C2228: left of '.region_block_base' must have class/struct/union
+         prfragmtrd.c
+         Generating Code...
+         Compiling...
+         prfragmtwr.c
+         prmath64.c
+         proplusglue.c
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(55): error C3861: 'pc_clusters2bytes64': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(209): error C2039: 'drive_async_state' : is not a member of 'ddrive_state'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(643) : see declaration of 'ddrive_state'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(225): error C2039: 'mem_finode_uex_pool' : is not a member of 'rtfs_cfg'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(1468) : see declaration of 'rtfs_cfg'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(226): error C2039: 'cfg_NFINODES_UEX' : is not a member of 'rtfs_cfg'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(1468) : see declaration of 'rtfs_cfg'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(228): error C3861: 'pc_memory_finode_ex': identifier not found
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(247): error C2039: 'mem_finode_uex_freelist' : is not a member of 'rtfs_cfg'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(1468) : see declaration of 'rtfs_cfg'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(248): error C2039: 'mem_finode_uex_freelist' : is not a member of 'rtfs_cfg'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(1468) : see declaration of 'rtfs_cfg'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(254): error C2039: 'mem_finode_uex_freelist' : is not a member of 'rtfs_cfg'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(1468) : see declaration of 'rtfs_cfg'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(257): error C2039: 'mem_finode_uex_freelist' : is not a member of 'rtfs_cfg'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(1468) : see declaration of 'rtfs_cfg'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(301): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(301): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(303): error C2039: 'e' : is not a member of 'finode'
+                 c:\dev\rtfs6svnsndbox\include\rtfstypes.h(269) : see declaration of 'finode'
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(303): error C2228: left of '.x' must have class/struct/union
+     1>c:\dev\rtfs6svnsndbox\rtfspackages\rtfsproplus\proplusglue.c(311): error C3861: 'pc_free_efinode': identifier not found
+         Generating Code...
+     1>Done Building Project "C:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\rtfsdemoproplus\rtfsdemo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:16.19

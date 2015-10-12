@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="rtfscommon">
+      <UniqueIdentifier>{7cc6d4b3-b778-45eb-a63c-503d63ce8136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfscommon\source">
+      <UniqueIdentifier>{2255de92-5125-4087-98c5-454766addfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfscommon\apps">
+      <UniqueIdentifier>{ea69cd05-fd13-40d6-8b01-a9628c44c0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfstargets">
+      <UniqueIdentifier>{9fba83f8-4dad-4ff3-a60c-a0b17aee9f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers">
+      <UniqueIdentifier>{db268364-7e8f-4ae2-9752-68824fd373ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\ata">
+      <UniqueIdentifier>{84dd7db6-76c7-415e-88e1-faca728df6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\smartmedia">
+      <UniqueIdentifier>{2fdbdea3-b7be-4064-8cc9-2386d5c0884c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\floppy">
+      <UniqueIdentifier>{2e9b63d6-54cc-4352-a40e-9a04d256e94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\hostdisk">
+      <UniqueIdentifier>{1fc48c2e-78de-44f2-8864-194367ef3c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\mmc">
+      <UniqueIdentifier>{df1cbb9a-4376-4a02-b818-f5ca296bf6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\norflash">
+      <UniqueIdentifier>{e1c2a1cd-b668-4e75-9c0b-07c61fcdc8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\pcmcia">
+      <UniqueIdentifier>{ff219a5a-8de3-49d2-9d82-4135d1c283d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\ramdisk">
+      <UniqueIdentifier>{7e9573bf-4eb1-47d3-9780-6698dbefdf94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\romdisk">
+      <UniqueIdentifier>{f305b94f-6596-45a2-ae54-d1ab5c07032a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\hostdev">
+      <UniqueIdentifier>{7d3fd4ff-ddf8-4068-8517-a55a80af3c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsdrivers\v10devwrap">
+      <UniqueIdentifier>{4108e287-af56-4440-bfa0-5e4c1606515c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfspro">
+      <UniqueIdentifier>{250d6156-f22a-4ebf-871c-017261fe53cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtfsfailsafe">
+      <UniqueIdentifier>{f5a52a24-9ea9-44fd-a9af-d6ef3faa65e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exfat">
+      <UniqueIdentifier>{0758c7cb-e33b-4416-baef-55aa95667311}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\rtfscallbacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\rtfsconfig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtfsdemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\runrtfsdemo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apickdsk.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apideltr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apidirent.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apidiskclose.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apidiskflush.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apidiskinford.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apienum.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apifilmv.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apifrmat.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apigetwd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apigfrst.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apigread.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apiinfo.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apiinit.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apimkdir.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apinandregress.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apipartition.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apiregrs.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apisetattr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apisetvol.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apisetwd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apistat.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\apiunlink.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\csasciird.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\csasciiwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\cscommon.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\csjisrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\csjistab.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\csjiswr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\csstrtab.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\drdynamic.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\prbasicemurd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\prbasicemuwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtdblockrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtdblockwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtdeviord.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtdeviowr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtdrobjrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtdrobjwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rteraseblock.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfatdrvrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfatdrvwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfblockrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfblockwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfilebuffer.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfragmtrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfsbasicrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfsbasicwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfsgluerd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtfsgluewr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtkernfn.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtleakcheck.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtlowl.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtnvfatrd.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtnvfatwr.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rttermin.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtutbyte.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\source\rtutil.c">
+      <Filter>rtfscommon\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\apps\appcmdfs.c">
+      <Filter>rtfscommon\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\apps\appcmdshformat.c">
+      <Filter>rtfscommon\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\apps\appcmdshrd.c">
+      <Filter>rtfscommon\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\apps\appcmdshwr.c">
+      <Filter>rtfscommon\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\apps\apputil.c">
+      <Filter>rtfscommon\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\apps\prfstest.c">
+      <Filter>rtfscommon\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfscommon\apps\protestsrd.c">
+      <Filter>rtfscommon\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfstargets\template\portio.c">
+      <Filter>rtfstargets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfstargets\windows.krn\portkern.c">
+      <Filter>rtfstargets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\ata\drideata.c">
+      <Filter>rtfsdrivers\ata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\smartmedia\smartapi.c">
+      <Filter>rtfsdrivers\smartmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\smartmedia\smartecc.c">
+      <Filter>rtfsdrivers\smartmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\smartmedia\smarthw.c">
+      <Filter>rtfsdrivers\smartmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\smartmedia\smartmed.c">
+      <Filter>rtfsdrivers\smartmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\smartmedia\smtmedia.c">
+      <Filter>rtfsdrivers\smartmedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\floppy\drfloppy.c">
+      <Filter>rtfsdrivers\floppy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\hostdisk\drhostdsk.c">
+      <Filter>rtfsdrivers\hostdisk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\mmc\drmmccrd.c">
+      <Filter>rtfsdrivers\mmc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\norflash\drflsftl.c">
+      <Filter>rtfsdrivers\norflash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\norflash\drflsmtd.c">
+      <Filter>rtfsdrivers\norflash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\pcmcia\drpcmcia.c">
+      <Filter>rtfsdrivers\pcmcia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\pcmcia\drpcmctl.c">
+      <Filter>rtfsdrivers\pcmcia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\pcmcia\drpcmram.c">
+      <Filter>rtfsdrivers\pcmcia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\ramdisk\drramdsk.c">
+      <Filter>rtfsdrivers\ramdisk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\romdisk\drromdsk.c">
+      <Filter>rtfsdrivers\romdisk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\hostdev\drwindev.c">
+      <Filter>rtfsdrivers\hostdev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\v10devwrap\apicnfig.c">
+      <Filter>rtfsdrivers\v10devwrap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\v10devwrap\apirun.c">
+      <Filter>rtfsdrivers\v10devwrap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\v10devwrap\v10glue.c">
+      <Filter>rtfsdrivers\v10devwrap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\csunicodrd.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\csunicodwr.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\rtfat32rd.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\rtfat32wr.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\rtfragmtwr.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\rtfreemanager.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\rtvfatrd.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspro\rtvfatwr.c">
+      <Filter>rtfspro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsfailsafe\prfsapi.c">
+      <Filter>rtfsfailsafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsfailsafe\prfscb.c">
+      <Filter>rtfsfailsafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsfailsafe\prfsjournal.c">
+      <Filter>rtfsfailsafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsfailsafe\prfsnvio.c">
+      <Filter>rtfsfailsafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsfailsafe\prfsrdstat.c">
+      <Filter>rtfsfailsafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsfailsafe\prfsrestore.c">
+      <Filter>rtfsfailsafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsfailsafe\prfstrio.c">
+      <Filter>rtfsfailsafe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfsdrivers\v10devwrap\apiinitv10.c">
+      <Filter>rtfsdrivers\v10devwrap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\ucasetableconst.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\exfatformat.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\rtexfatbam.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\rtexfatboot.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\rtexfatdirscan.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\rtexfatdirwrite.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\rtexfatfilio.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\rtexfatprobe.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\rtexfatutil.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\ucasetable.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\rtfspackages\exfat\prmath64.c">
+      <Filter>exfat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>rtfspro</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,126 @@
+﻿Build started 2/25/2014 9:09:54 AM.
+     1>Project "C:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\rtfsdemoproexfat\rtfsdemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\rtfsdemo.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\rtfsdemoproexfat\Debug\rtfsdemo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rtfsdemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\rtfsdemoproexfat\Debug\rtfsdemo.pdb" /MAP:"mapfile.map" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\rtfsdemoproexfat\Debug\rtfsdemo.lib" /MACHINE:X86 Debug\app.res
+         Debug\prmath64.obj
+         Debug\rtfscallbacks.obj
+         Debug\rtfsconfig.obj
+         Debug\rtfsdemo.obj
+         Debug\runrtfsdemo.obj
+         Debug\stdafx.obj
+         Debug\apickdsk.obj
+         Debug\apideltr.obj
+         Debug\apidirent.obj
+         Debug\apidiskclose.obj
+         Debug\apidiskflush.obj
+         Debug\apidiskinford.obj
+         Debug\apienum.obj
+         Debug\apifilmv.obj
+         Debug\apifrmat.obj
+         Debug\apigetwd.obj
+         Debug\apigfrst.obj
+         Debug\apigread.obj
+         Debug\apiinfo.obj
+         Debug\apiinit.obj
+         Debug\apimkdir.obj
+         Debug\apinandregress.obj
+         Debug\apipartition.obj
+         Debug\apiregrs.obj
+         Debug\apisetattr.obj
+         Debug\apisetvol.obj
+         Debug\apisetwd.obj
+         Debug\apistat.obj
+         Debug\apiunlink.obj
+         Debug\csasciird.obj
+         Debug\csasciiwr.obj
+         Debug\cscommon.obj
+         Debug\csjisrd.obj
+         Debug\csjistab.obj
+         Debug\csjiswr.obj
+         Debug\csstrtab.obj
+         Debug\drdynamic.obj
+         Debug\rtdblockrd.obj
+         Debug\rtdblockwr.obj
+         Debug\rtdeviord.obj
+         Debug\rtdeviowr.obj
+         Debug\rtdrobjrd.obj
+         Debug\rtdrobjwr.obj
+         Debug\rteraseblock.obj
+         Debug\rtfatdrvrd.obj
+         Debug\rtfatdrvwr.obj
+         Debug\rtfblockrd.obj
+         Debug\rtfblockwr.obj
+         Debug\rtfilebuffer.obj
+         Debug\rtfragmtrd.obj
+         Debug\rtfsbasicrd.obj
+         Debug\rtfsbasicwr.obj
+         Debug\rtfsgluerd.obj
+         Debug\rtfsgluewr.obj
+         Debug\rtkernfn.obj
+         Debug\rtleakcheck.obj
+         Debug\rtlowl.obj
+         Debug\rtnvfatrd.obj
+         Debug\rtnvfatwr.obj
+         Debug\rttermin.obj
+         Debug\rtutbyte.obj
+         Debug\rtutil.obj
+         Debug\appcmdfs.obj
+         Debug\appcmdshformat.obj
+         Debug\appcmdshrd.obj
+         Debug\appcmdshwr.obj
+         Debug\apputil.obj
+         Debug\portio.obj
+         Debug\portkern.obj
+         Debug\drideata.obj
+         Debug\smartapi.obj
+         Debug\smartecc.obj
+         Debug\smarthw.obj
+         Debug\smartmed.obj
+         Debug\smtmedia.obj
+         Debug\drfloppy.obj
+         Debug\drhostdsk.obj
+         Debug\drmmccrd.obj
+         Debug\drflsftl.obj
+         Debug\drflsmtd.obj
+         Debug\drpcmcia.obj
+         Debug\drpcmctl.obj
+         Debug\drpcmram.obj
+         Debug\drromdsk.obj
+         Debug\drwindev.obj
+         Debug\csunicodrd.obj
+         Debug\csunicodwr.obj
+         Debug\rtfat32rd.obj
+         Debug\rtfat32wr.obj
+         Debug\rtfragmtwr.obj
+         Debug\rtfreemanager.obj
+         Debug\rtvfatrd.obj
+         Debug\rtvfatwr.obj
+         Debug\drramdsk.obj
+         Debug\exfatformat.obj
+         Debug\rtexfatbam.obj
+         Debug\rtexfatboot.obj
+         Debug\rtexfatdirscan.obj
+         Debug\rtexfatdirwrite.obj
+         Debug\rtexfatfilio.obj
+         Debug\rtexfatprobe.obj
+         Debug\rtexfatutil.obj
+         Debug\ucasetable.obj
+         Debug\ucasetableconst.obj
+         Debug\prbasicemurd1.obj
+         Debug\prbasicemuwr1.obj
+     1>prmath64.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "C:\dev\rtfs6svnsndbox\rtfsprojects\msvc.net\rtfsdemoproexfat\rtfsdemo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.50
